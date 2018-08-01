@@ -1,4 +1,5 @@
 package leetcode
+
 /*
 - 198. House Robber
 - Description:
@@ -18,11 +19,10 @@ Input: [2,7,9,3,1]
 Output: 12
 Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1).
              Total amount you can rob = 2 + 9 + 1 = 12.
- */
+*/
 import (
 	. "github.com/CX1ng/leetcode-go/utils"
 )
-
 
 func rob(nums []int) int {
 	length := len(nums)
@@ -40,8 +40,8 @@ func rob(nums []int) int {
 		cache[1] = cache[0]
 	}
 	max := cache[1]
-	for i := 2;i < length;i++ { // max(cache[i-2] + nums[i], cache[i-1])
-		cache[i] = Max(cache[i-2] + nums[i], cache[i-1])
+	for i := 2; i < length; i++ { // max(cache[i-2] + nums[i], cache[i-1])
+		cache[i] = Max(cache[i-2]+nums[i], cache[i-1])
 		max = Max(cache[i], max)
 	}
 	return max
