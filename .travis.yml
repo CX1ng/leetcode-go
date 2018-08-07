@@ -1,0 +1,16 @@
+language: go
+
+go:
+  - 1.10.x
+
+notifications:
+  email: false
+
+install:
+
+script:
+  go test -v ./leetcode
+
+branches:
+  only:
+    - master
