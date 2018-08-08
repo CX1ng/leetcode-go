@@ -12,15 +12,15 @@ Explanation: [4,-1,2,1] has the largest sum = 6.
 
 Follow up:
 If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
- */
+*/
 
 func maxSubArray(nums []int) int {
 	sum := 0
 	max := -9999999999999
-	for i := 0;i < len(nums) ;i++{
+	for i := 0; i < len(nums); i++ {
 		if sum > 0 {
 			sum = sum + nums[i]
-		}else {
+		} else {
 			sum = nums[i]
 		}
 		if sum > max {

@@ -6,3 +6,10 @@ func Max(first, second int) int {
 	}
 	return second
 }
+
+func Min(first, second int) int {
+	if first > second {
+		return second
+	}
+	return first
+}
