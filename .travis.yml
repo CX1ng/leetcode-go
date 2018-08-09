@@ -7,10 +7,18 @@ notifications:
   email: false
 
 install:
+# download software
+  - go get -v github.com/Masterminds/glide
+  - cd ${GOPATH}/src/github.com/Masterminds/glide && go install && cd -
+  - cd ${GOPATH}/src/github.com/CX1ng/leetcode-go
+# download packages
+  - glide install
+  - go get github.com/mattn/goveralls
 
 script:
-  go test -v ./leetcode
+  - go test -v -covermode=count -coverprofile=coverage.out ./...
+  - ${GOPATH}/bin/goveralls -coverprofile=coverage.out -service=travis-pro -repotoken $COVERALLS_TOKEN
 
-branches:
-  only:
-    - master
+env:
+  global:
+  - secure: "ZeZA+gey0a9nJu+fF7z9ZdB3qUzXqc72DFl/u7rxWB33uM4qgSpx+h+WCof4bqMy08GpfPkh4xad7zbDFU1pdY6w2jlv/tJDxnNQBN3P6ZWpJrtg0Qakyy1hZ28pUykCiw+37FtQToiHYaXcZMIwouKYOChYVvnwr4adndvKGQGYgjijqMFI1KQ3XvzJhanv4EDQFayJXdvgeIYQGRrX120X+QLP1Lq7AOZbk8ohLdDF+JMxvxqWK2AncKsmhCSvKCmjEyvzpYNp1cRMqTvbDJn5TUNhl+T3ibFunWg0fiQtL3ITEU72SOtcSunohW0TAUKss3PJWdNnVGTb0XZWWAJ/CnE6IgRosByOdYreogcgPlwE6F2dD9iAuFF7RxUf2KENcHLc1P60P23+AcueKOeRtgVC4VBlRK8N2xj4wwQSEyzAjnUcDMDiwVDY72wh+EXRzASQvBZdXoTZFyVNYruLgDMo1KfdrJ97uMU4wp74pHyTSbln7+k72monD4sFkguYf61YgUcnQd5nv+ueN3rDOBJV3+dc4oXVmAZFfjzqI00p5RtYyt/rkJnIR0VLhiX121xFK591yog5KEsK/Z2o0XFulA6GQgyqNhCmJL7AUVW+dQY/iNRVShOD1mEdRme2fCXIS6BTxVost30Mp2zourpQm1CijwH9l5X6+8w="

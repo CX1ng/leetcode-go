@@ -1,5 +1,6 @@
 ### Leetcode Practice (Golang)
-[![Build Status](https://travis-ci.org/CX1ng/leetcode-go.svg?branch=master)](https://travis-ci.org/CX1ng/leetcode-go)  
+[![Build Status](https://travis-ci.org/CX1ng/leetcode-go.svg?branch=master)](https://travis-ci.org/CX1ng/leetcode-go)
+[![Coverage Status](https://coveralls.io/repos/github/CX1ng/leetcode-go/badge.svg?branch=master)](https://coveralls.io/github/CX1ng/leetcode-go?branch=master)  
 [Leetcode](https://leetcode.com/)
 
 ### Problems
