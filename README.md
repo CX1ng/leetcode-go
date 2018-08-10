@@ -12,3 +12,5 @@
     * [746.Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)
 + Hash Table (Total: 1)
     * [771.Jewels And Stones](https://leetcode.com/problems/jewels-and-stones/description/)
++ matrix (Total: 1)
+    * [807.Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/description/)
