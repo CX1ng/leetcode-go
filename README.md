@@ -10,3 +10,5 @@
     * [121.Best Time Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
     * [198.House Robber](https://leetcode.com/problems/house-robber/description/)
     * [746.Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)
++ Hash Table (Total: 1)
+    * [771.Jewels And Stones](https://leetcode.com/problems/jewels-and-stones/description/)
