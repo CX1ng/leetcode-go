@@ -16,3 +16,5 @@
     * [807.Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/description/)
 + String (Total: 1)
     * [804.Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/description/)
++ Tree (Total: 1)
+    * [654.Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)
