@@ -19,3 +19,5 @@
 + Array (Total: 2)
     * [807.Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/description/)
     * [832.Flipping An Image](https://leetcode.com/problems/flipping-an-image/description/)
+* Greedy (Total: 1)
+    * [861.Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/description/)
