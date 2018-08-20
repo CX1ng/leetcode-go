@@ -1,8 +1,8 @@
 package leetcode
 
 import (
-	"testing"
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func TestPruneTree(t *testing.T) {
