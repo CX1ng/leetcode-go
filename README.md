@@ -25,3 +25,5 @@
     * [852.Peak Index In A Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)
 * Greedy (Total: 1)
     * [861.Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/description/)
+* Bit Manipulation (Total: 1)
+    * [476.Number Complement](https://leetcode.com/problems/number-complement/description/)
