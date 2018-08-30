@@ -27,5 +27,6 @@
     * [867.Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/)
 * Greedy (Total: 1)
     * [861.Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/description/)
-* Bit Manipulation (Total: 1)
+* Bit Manipulation (Total: 2)
+    * [461.Hamming Distance](https://leetcode.com/problems/hamming-distance/description/)
     * [476.Number Complement](https://leetcode.com/problems/number-complement/description/)
