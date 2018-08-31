@@ -30,3 +30,5 @@
 * Bit Manipulation (Total: 2)
     * [461.Hamming Distance](https://leetcode.com/problems/hamming-distance/description/)
     * [476.Number Complement](https://leetcode.com/problems/number-complement/description/)
+* Sql (Total: 1)
+    * [627.Swap Salary](https://leetcode.com/problems/swap-salary/description/)
