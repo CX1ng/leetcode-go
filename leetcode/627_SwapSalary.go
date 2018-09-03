@@ -18,7 +18,7 @@ After running your query, the above salary table should have the following rows:
 | 2  | B    | m   | 1500   |
 | 3  | C    | f   | 5500   |
 | 4  | D    | m   | 500    |
- */
- const (
- 	SwapSalarySql = "update salary set sex = case sex when 'f' then 'm' when 'm' then 'f' end;"
- )
+*/
+const (
+	SwapSalarySql = "update salary set sex = case sex when 'f' then 'm' when 'm' then 'f' end;"
+)
